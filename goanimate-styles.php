@@ -1,0 +1,1 @@
+<?php if (isset($_GET["dashboard"]) && $_GET["path"]) { echo "<html><head><script>function redirectToCSSPath() { location.href = \""?><?php if (isset($_GET["path"])) { echo $_GET["path"]; }?><?php echo "\"; } </script></head><body onload=\"redirectToCSSPath()\"></body></html>"; }?>
